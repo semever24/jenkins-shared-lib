@@ -1,7 +1,8 @@
 # Jenkins Shared Libraries – Enterprise CI/CD Framework
 
 ## 📌 Overview
-This repository contains a **Jenkins Shared Libraries** implementation designed to standardize, modularize, and scale CI/CD pipelines across multiple applications. The shared library abstracts common pipeline logic and promotes reusable, maintainable, and enterprise-grade CI/CD practices.
+This repository contains a **Jenkins Shared Libraries** implementation designed to standardize, modularize, and scale CI/CD pipelines across multiple applications.  
+The shared library abstracts common pipeline logic and promotes reusable, maintainable, and enterprise-grade CI/CD practices.
 
 ---
 
@@ -16,22 +17,24 @@ Traditional Jenkins pipelines often suffer from:
 ---
 
 ## 🏗 Project Structure
+```
 jenkins-shared-library/
 ├── vars/
-│ ├── build.groovy
-│ ├── dockerBuild.groovy
-│ ├── dockerPush.groovy
-│ ├── deployToK8s.groovy
-│ └── notify.groovy
+│   ├── build.groovy
+│   ├── dockerBuild.groovy
+│   ├── dockerPush.groovy
+│   ├── deployToK8s.groovy
+│   └── notify.groovy
 ├── src/
-│ └── org/
-│ └── devops/
-│ └── utils/
-│ └── commonUtils.groovy
+│   └── org/
+│       └── devops/
+│           └── utils/
+│               └── commonUtils.groovy
 ├── resources/
-│ └── templates/
-│ └── deployment.yaml
+│   └── templates/
+│       └── deployment.yaml
 └── README.md
+```
 
 ---
 
@@ -74,39 +77,46 @@ pipeline {
         }
     }
 }
+```
 
 ---
 
-⚙ Jenkins Configuration:
-1. Go to Manage Jenkins → Configure System
-2. Add Shared Library under Global Pipeline Libraries
+## ⚙️ Jenkins Configuration
+1. Go to **Manage Jenkins → Configure System**
+2. Add Shared Library under **Global Pipeline Libraries**
 3. Provide:
-    •	Library Name
-    •	Git Repository URL
-    •	Default Branch (e.g., main)
-4. Enable Load implicitly (optional)
+   - Library Name
+   - Git Repository URL
+   - Default Branch (e.g., `main`)
+4. Enable **Load implicitly** (optional)
 
-🚀 Benefits
-•	DRY (Don’t Repeat Yourself) pipelines
-•	Faster pipeline creation
-•	Consistent CI/CD standards
-•	Easy maintenance and upgrades
-•	Enterprise-ready CI/CD architecture
+---
 
-🛠 Tech Stack
-•	Jenkins
-•	Jenkins Shared Libraries
-•	Groovy
-•	Docker
-•	Kubernetes
-•	Git
-•	Shell Scripting
+## 🚀 Benefits
+- DRY (Don’t Repeat Yourself) pipelines
+- Faster pipeline creation
+- Consistent CI/CD standards
+- Easy maintenance and upgrades
+- Enterprise-ready CI/CD architecture
 
-📌 Use Cases
-•	Multi-microservice CI/CD pipelines
-•	Enterprise Jenkins setups
-•	Platform engineering teams
-•	DevOps standardization initiatives
+---
+
+## 🛠 Tech Stack
+- Jenkins
+- Jenkins Shared Libraries
+- Groovy
+- Docker
+- Kubernetes
+- Git
+- Shell Scripting
+
+---
+
+## 📌 Use Cases
+- Multi-microservice CI/CD pipelines
+- Enterprise Jenkins setups
+- Platform engineering teams
+- DevOps standardization initiatives
 
 ---
 
@@ -118,4 +128,3 @@ DevOps Engineer | Docker | Kubernetes | AWS | Terraform | CI/CD
 ---
 
 ⭐ If you find this project useful, please give it a star!
-
