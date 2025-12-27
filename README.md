@@ -33,9 +33,6 @@ jenkins-shared-library/
 │ └── deployment.yaml
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## 🔁 Shared Library Capabilities
