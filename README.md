@@ -79,3 +79,45 @@ pipeline {
     }
 }
 
+⚙ Jenkins Configuration:
+1. Go to Manage Jenkins → Configure System
+2. Add Shared Library under Global Pipeline Libraries
+3. Provide:
+    •	Library Name
+    •	Git Repository URL
+    •	Default Branch (e.g., main)
+4. Enable Load implicitly (optional)
+
+🚀 Benefits
+•	DRY (Don’t Repeat Yourself) pipelines
+•	Faster pipeline creation
+•	Consistent CI/CD standards
+•	Easy maintenance and upgrades
+•	Enterprise-ready CI/CD architecture
+
+🛠 Tech Stack
+•	Jenkins
+•	Jenkins Shared Libraries
+•	Groovy
+•	Docker
+•	Kubernetes
+•	Git
+•	Shell Scripting
+
+📌 Use Cases
+•	Multi-microservice CI/CD pipelines
+•	Enterprise Jenkins setups
+•	Platform engineering teams
+•	DevOps standardization initiatives
+
+---
+
+## 👨‍💻 Author
+
+**Senthil Kumar R**  
+DevOps Engineer | Docker | Kubernetes | AWS | Terraform | CI/CD
+
+---
+
+⭐ If you find this project useful, please give it a star!
+
