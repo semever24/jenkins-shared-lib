@@ -1,8 +1,7 @@
 # Jenkins Shared Libraries – Enterprise CI/CD Framework
 
 ## 📌 Overview
-This repository contains a **Jenkins Shared Libraries** implementation designed to standardize, modularize, and scale CI/CD pipelines across multiple applications.  
-The shared library abstracts common pipeline logic and promotes reusable, maintainable, and enterprise-grade CI/CD practices.
+This repository contains a **Jenkins Shared Libraries** implementation designed to standardize, modularize, and scale CI/CD pipelines across multiple applications. The shared library abstracts common pipeline logic and promotes reusable, maintainable, and enterprise-grade CI/CD practices.
 
 ---
 
