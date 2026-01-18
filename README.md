@@ -15,28 +15,6 @@ Traditional Jenkins pipelines often suffer from:
 
 ---
 
-## 🏗 Project Structure
-```
-jenkins-shared-library/
-├── vars/
-│   ├── build.groovy
-│   ├── dockerBuild.groovy
-│   ├── dockerPush.groovy
-│   ├── deployToK8s.groovy
-│   └── notify.groovy
-├── src/
-│   └── org/
-│       └── devops/
-│           └── utils/
-│               └── commonUtils.groovy
-├── resources/
-│   └── templates/
-│       └── deployment.yaml
-└── README.md
-```
-
----
-
 ## 🔁 Shared Library Capabilities
 - Application build automation
 - Docker image build and tagging
@@ -118,12 +96,4 @@ pipeline {
 - DevOps standardization initiatives
 
 ---
-
-## 👨‍💻 Author
-
-**Senthil Kumar R**  
-DevOps Engineer | Docker | Kubernetes | AWS | Terraform | CI/CD
-
----
-
 ⭐ If you find this project useful, please give it a star!
